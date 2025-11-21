@@ -1,0 +1,81 @@
+{
+  "nonMember": {
+    "title": "成为会员",
+    "subtitle": "享受专属权益",
+    "benefits": {
+      "data": {
+        "title": "100GB 流量",
+        "description": "365天有效期"
+      },
+      "esim": {
+        "title": "3张 eSIM",
+        "description": "可分配给家人朋友"
+      },
+      "flexible": {
+        "title": "灵活分配",
+        "description": "自由分配流量额度"
+      }
+    },
+    "details": {
+      "title": "会员权益详情",
+      "item1": "获得 100GB 高速流量，有效期365天",
+      "item2": "获赠 3 张空白 eSIM 卡",
+      "item3": "可将流量灵活分配给 3 个人使用",
+      "item4": "通过邮箱快速发送 eSIM"
+    },
+    "purchaseButton": "立即购买会员"
+  },
+  "esimCard": {
+    "blankTitle": "空白 eSIM",
+    "blankDescription": "点击分配流量和邮箱",
+    "noDataAvailable": "无可用流量",
+    "allocateButton": "分配",
+    "allocatedTime": "分配时间:",
+    "dataUsage": "流量使用"
+  },
+  "memberView": {
+    "title": "会员中心",
+    "vipBadge": "VIP会员",
+    "stats": {
+      "remainingDays": "剩余天数",
+      "totalData": "总流量",
+      "availableData": "可分配",
+      "daysUnit": "天"
+    },
+    "sections": {
+      "allocatedCards": "已分配的 eSIM",
+      "availableCards": "可用的 eSIM"
+    },
+    "emptyStates": {
+      "noAllocatedCards": "暂无已分配的 eSIM",
+      "noAvailableCards": "所有 eSIM 卡已分配完毕"
+    }
+  },
+  "allocateModal": {
+    "step1": {
+      "title": "分配流量",
+      "dataLabel": "分配流量 (GB)",
+      "dataPlaceholder": "请输入流量额度",
+      "availableHint": "当前可分配: {amount}GB",
+      "remainingHint": "分配后剩余: {amount}GB",
+      "nextButton": "下一步",
+      "cancelButton": "取消",
+      "errors": {
+        "dataRequired": "请输入流量额度",
+        "dataInvalid": "请输入有效的整数",
+        "dataExceeded": "流量额度不能超过 {max}GB"
+      }
+    },
+    "step2": {
+      "title": "输入邮箱",
+      "emailLabel": "邮箱地址",
+      "emailPlaceholder": "请输入接收 eSIM 的邮箱",
+      "confirmButton": "确认分配",
+      "backButton": "返回",
+      "errors": {
+        "emailRequired": "请输入邮箱地址",
+        "emailInvalid": "请输入有效的邮箱地址"
+      }
+    }
+  }
+}

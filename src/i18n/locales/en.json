@@ -1,0 +1,81 @@
+{
+  "nonMember": {
+    "title": "Become a Member",
+    "subtitle": "Enjoy exclusive benefits",
+    "benefits": {
+      "data": {
+        "title": "100GB Data",
+        "description": "Valid for 365 days"
+      },
+      "esim": {
+        "title": "3 eSIM Cards",
+        "description": "Share with family & friends"
+      },
+      "flexible": {
+        "title": "Flexible Allocation",
+        "description": "Freely distribute data quota"
+      }
+    },
+    "details": {
+      "title": "Membership Benefits",
+      "item1": "Get 100GB high-speed data, valid for 365 days",
+      "item2": "Receive 3 blank eSIM cards",
+      "item3": "Flexibly allocate data to 3 people",
+      "item4": "Send eSIM quickly via email"
+    },
+    "purchaseButton": "Purchase Membership Now"
+  },
+  "esimCard": {
+    "blankTitle": "Blank eSIM",
+    "blankDescription": "Click to allocate data and email",
+    "noDataAvailable": "No data available",
+    "allocateButton": "Allocate",
+    "allocatedTime": "Allocated:",
+    "dataUsage": "Data Usage"
+  },
+  "memberView": {
+    "title": "Member Center",
+    "vipBadge": "VIP Member",
+    "stats": {
+      "remainingDays": "Days Left",
+      "totalData": "Total Data",
+      "availableData": "Available",
+      "daysUnit": "days"
+    },
+    "sections": {
+      "allocatedCards": "Allocated eSIMs",
+      "availableCards": "Available eSIMs"
+    },
+    "emptyStates": {
+      "noAllocatedCards": "No allocated eSIMs yet",
+      "noAvailableCards": "All eSIM cards have been allocated"
+    }
+  },
+  "allocateModal": {
+    "step1": {
+      "title": "Allocate Data",
+      "dataLabel": "Data Amount (GB)",
+      "dataPlaceholder": "Enter data amount",
+      "availableHint": "Currently available: {amount}GB",
+      "remainingHint": "After allocation: {amount}GB",
+      "nextButton": "Next",
+      "cancelButton": "Cancel",
+      "errors": {
+        "dataRequired": "Please enter data amount",
+        "dataInvalid": "Please enter a valid integer",
+        "dataExceeded": "Data amount cannot exceed {max}GB"
+      }
+    },
+    "step2": {
+      "title": "Enter Email",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "Enter email to receive eSIM",
+      "confirmButton": "Confirm Allocation",
+      "backButton": "Back",
+      "errors": {
+        "emailRequired": "Please enter email address",
+        "emailInvalid": "Please enter a valid email address"
+      }
+    }
+  }
+}

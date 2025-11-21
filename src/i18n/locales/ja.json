@@ -1,0 +1,81 @@
+{
+  "nonMember": {
+    "title": "メンバーになる",
+    "subtitle": "特別な特典をお楽しみください",
+    "benefits": {
+      "data": {
+        "title": "100GB データ",
+        "description": "365日間有効"
+      },
+      "esim": {
+        "title": "3枚のeSIM",
+        "description": "家族や友人と共有可能"
+      },
+      "flexible": {
+        "title": "柔軟な配分",
+        "description": "データ容量を自由に配分"
+      }
+    },
+    "details": {
+      "title": "メンバーシップ特典",
+      "item1": "100GB高速データを取得、365日間有効",
+      "item2": "3枚の空白eSIMカードを受け取り",
+      "item3": "3人にデータを柔軟に配分",
+      "item4": "メールで素早くeSIMを送信"
+    },
+    "purchaseButton": "今すぐメンバーシップを購入"
+  },
+  "esimCard": {
+    "blankTitle": "空白のeSIM",
+    "blankDescription": "クリックしてデータとメールを割り当て",
+    "noDataAvailable": "利用可能なデータなし",
+    "allocateButton": "割り当て",
+    "allocatedTime": "割り当て日時:",
+    "dataUsage": "データ使用量"
+  },
+  "memberView": {
+    "title": "メンバーセンター",
+    "vipBadge": "VIPメンバー",
+    "stats": {
+      "remainingDays": "残り日数",
+      "totalData": "総データ量",
+      "availableData": "割り当て可能",
+      "daysUnit": "日"
+    },
+    "sections": {
+      "allocatedCards": "割り当て済みeSIM",
+      "availableCards": "利用可能なeSIM"
+    },
+    "emptyStates": {
+      "noAllocatedCards": "割り当て済みのeSIMはありません",
+      "noAvailableCards": "すべてのeSIMカードが割り当て済みです"
+    }
+  },
+  "allocateModal": {
+    "step1": {
+      "title": "データ割り当て",
+      "dataLabel": "割り当てデータ量 (GB)",
+      "dataPlaceholder": "データ量を入力",
+      "availableHint": "現在利用可能: {amount}GB",
+      "remainingHint": "割り当て後: {amount}GB",
+      "nextButton": "次へ",
+      "cancelButton": "キャンセル",
+      "errors": {
+        "dataRequired": "データ量を入力してください",
+        "dataInvalid": "有効な整数を入力してください",
+        "dataExceeded": "データ量は{max}GBを超えることはできません"
+      }
+    },
+    "step2": {
+      "title": "メールアドレス入力",
+      "emailLabel": "メールアドレス",
+      "emailPlaceholder": "eSIMを受信するメールアドレスを入力",
+      "confirmButton": "割り当て確認",
+      "backButton": "戻る",
+      "errors": {
+        "emailRequired": "メールアドレスを入力してください",
+        "emailInvalid": "有効なメールアドレスを入力してください"
+      }
+    }
+  }
+}
